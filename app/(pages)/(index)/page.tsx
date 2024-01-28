@@ -1,5 +1,5 @@
 import React from "react";
-import CompanyLogoDisplay from "../components/CompanyLogoDisplay";
+import CompanyLogoDisplay from "../../components/CompanyLogoDisplay";
 
 export default function Welcome() {
 	return (

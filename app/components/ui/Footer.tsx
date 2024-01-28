@@ -20,7 +20,7 @@ export default function Footer() {
 								The HK economy is bad. Telegram groups are
 								useless. Our team hopes everyone here can leave
 								their job hunting experiences and update their
-								interview progresses.
+								interview progress.
 							</div>
 							<div className="text-base lg:text-2xl">
 								Every little helps!
