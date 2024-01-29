@@ -93,7 +93,7 @@ export default function MobileMenu() {
 				<ul className="bg-gray-800 px-4 py-2">
 					<li>
 						<Link
-							href="/"
+							href="/signin"
 							className="flex font-medium w-full text-white py-2 justify-center"
 							onClick={() => setMobileNavOpen(false)}
 						>
@@ -102,7 +102,7 @@ export default function MobileMenu() {
 					</li>
 					<li>
 						<Link
-							href="/"
+							href="/signup"
 							className="flex font-medium w-full text-white py-2 justify-center"
 							onClick={() => setMobileNavOpen(false)}
 						>
