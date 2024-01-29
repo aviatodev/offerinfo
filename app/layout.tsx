@@ -22,11 +22,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${montserrat.className} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
+				className={`${montserrat.className} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight min-h-screen`}
 			>
 				<div className="flex flex-col min-h-screen overflow-hidden">
 					<Header />
-					{children}
+					<main className="flex-grow">{children}</main>
 					<Footer />
 				</div>
 			</body>

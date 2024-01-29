@@ -9,10 +9,10 @@ export default function SignIn() {
 	return (
 		<section className="relative">
 			<div className="max-w-6xl mx-auto px-4 sm:px-6">
-				<div className="pt-24 pb-8 md:pt-40 md:pb-20">
+				<div className="pt-20 pb-8 md:pt-40 md:pb-20">
 					{/* Page header */}
 					<div className="max-w-3xl mx-auto text-center pb-8 md:pb-12">
-						<h1 className="h1">Welcome back.</h1>
+						<h1 className="h1">Welcome back</h1>
 					</div>
 
 					{/* Form */}

@@ -109,6 +109,15 @@ export default function MobileMenu() {
 							Sign up
 						</Link>
 					</li>
+					<li>
+						<Link
+							href="/terms"
+							className="flex font-medium w-full text-white py-2 justify-center"
+							onClick={() => setMobileNavOpen(false)}
+						>
+							Terms and Conditions
+						</Link>
+					</li>
 				</ul>
 			</nav>
 		</div>

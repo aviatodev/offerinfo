@@ -134,7 +134,9 @@ export default function Footer() {
 
 							{/* Miscellaneous block */}
 							<div className="text-xs lg:text-sm">
-								<h6 className="text-gray-200 font-medium mb-1"></h6>
+								<h6 className="text-gray-200 font-medium mb-1">
+									About Us
+								</h6>
 								<ul>
 									<li className="mb-1">
 										<Link
@@ -166,6 +168,24 @@ export default function Footer() {
 											className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
 										>
 											Prayer Room
+										</Link>
+									</li>
+									<li className="mb-1">
+										<Link
+											href="/terms"
+											className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+										>
+											Terms and Conditions
+										</Link>
+									</li>
+									<li className="mb-1">
+										<Link
+											href="https://t.me/+vE2iiz8Olb0wMzI1"
+											rel="noopener noreferrer"
+											target="_blank"
+											className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+										>
+											Official Telegram Group
 										</Link>
 									</li>
 								</ul>

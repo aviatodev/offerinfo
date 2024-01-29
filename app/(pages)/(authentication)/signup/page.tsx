@@ -9,10 +9,10 @@ export default function SignUp() {
 	return (
 		<section className="relative">
 			<div className="max-w-6xl mx-auto px-4 sm:px-6">
-				<div className="pt-24 pb-8 md:pt-40 md:pb-20">
+				<div className="pt-20 pb-8 md:pt-40 md:pb-20">
 					{/* Page header */}
 					<div className="max-w-3xl mx-auto text-center pb-8 md:pb-12">
-						<h1 className="h1">Register your account.</h1>
+						<h1 className="h1">Register now</h1>
 					</div>
 
 					{/* Form */}
@@ -116,7 +116,7 @@ export default function SignUp() {
 								I agree the shared data are valid and open to
 								all users.{" "}
 								<Link
-									href="#"
+									href="/terms"
 									className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"
 								>
 									Privacy Policy
